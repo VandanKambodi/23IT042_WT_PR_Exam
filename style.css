@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(209, 209, 209);
+}
+
+.list
+{
+    padding-top: 10px;
+    margin-top: 20px;
+    height: 133px;
+    align-self: center ;
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    box-shadow: 1px 1px 10px 5px #ffffff;
+}
+
+img{
+    background-color: white;
+}
+
+.menu
+{
+    height: 100%;
+    width: 70%;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: #ffffff;
+    padding: 10px;
+  }
+  
+  .grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  }
+
+  h3{
+    background-color: white;
+    height: 40px;
+    align-items: center;
+    align-content: center;
+    text-align: left;
+    padding-left: 10px;
+  }
+
+  h6{
+    background-color: #ffffff;
+    font-size:15px;
+    color: rgb(139, 139, 139);
+  }
+
+  h5{
+    background-color: #ffffff;
+    font-size:20px;
+    color: rgb(0, 0, 0);
+  }
+
+.container{
+  max-width: 100%;
+  margin:auto;
+}
+.row{
+  display: flex;
+  flex-wrap: wrap;
+}
+ul{
+  list-style: none;
+}
+
+  .footer{
+    margin-top: 30px;
+    margin-bottom: 50px;
+      padding: 0px 0;
+      width: 70%;
+  }
+  .footer-col{
+     width: 25%;
+     padding:0;
+  }
+  .footer-col h4{
+    font-size: 18px;
+    color: #020202;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    font-weight: 500;
+    position: relative;
+  }
+  .footer-col h4::before{
+    content: '';
+    position: absolute;
+    left:0;
+    bottom: -10px;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+  }
+  .footer-col ul li:not(:last-child){
+    margin-bottom: 10px;
+  }
+  .footer-col ul li a{
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #000000;
+    text-decoration: none;
+    font-weight: 300;
+    color: #474747;
+    display: block;
+    transition: all 0.3s ease;
+  }
+  .footer-col ul li a:hover{
+    color: #ffffff;
+    padding-left: 8px;
+  }
+  .footer-col .social-links a{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(255,255,255,0.2);
+    margin:0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #707070;
+    transition: all 0.5s ease;
+  }
+  .footer-col .social-links a:hover{
+    color: #24262b;
+    background-color: #000000;
+  }
+  
+  @media(max-width: 767px){
+    .footer-col{
+      width: 50%;
+      margin-bottom: 30px;
+  }
+  }
+  @media(max-width: 574px){
+    .footer-col{
+      width: 100%;
+  }
+  }
